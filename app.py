@@ -1,5 +1,5 @@
 import streamlit as st
-
+import datetime
 import numpy as np
 import pandas as pd
 
@@ -47,3 +47,4 @@ df1
 st.write("Cached dataframe")
 df2 = get_cached_data()
 df2
+print(datetime.datetime.now())
